@@ -1,0 +1,44 @@
+#include <iostream>
+#include <queue>
+#include <vector>
+#include <string>
+using namespace std;
+
+struct info{  //info 구조체
+	int year;
+	string name; 
+	int n;  //같은 year에서의 순서 설정해주기 위한 n우선순위
+
+	info(int n,int y, string str) :n(n), year(y), name(str) {} //변수 초기화
+};
+
+struct cmp {
+	bool operator()(info x, info y) {  //오름차순으로 정렬하기위해 오버라이딩
+			return x.year > y.year;
+	}
+};
+
+int main() {
+
+	int test;
+	cin >> test; 
+
+	int n = 0;
+
+
+	priority_queue<info, vector<info>, cmp> q;  //구조체 info를 저장하는 우선순위 큐 생성
+
+	while (test--) {
+		int num;  
+		string str1;
+		cin >> num >> str1;  //정보 입력받고 저장
+		q.push(info(n,num, str1));  //q에 구조체 저장
+		n++; //값 저장할 때 마다 n우선순위 증가
+	}
+
+	while (!q.empty()) {
+		info i = q.top(); //q의 맨 앞에 info불러오기
+		cout << i.year << ' ' << i.name<<'\n';  //각 정보 출력
+		q.pop(); //맨 앞의 info pop
+	}
+}

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="10102(개표).cpp" />
+    <ClCompile Include="1012(유기농 배추).cpp" />
+    <ClCompile Include="10156(과자).cpp" />
+    <ClCompile Include="10214(Baseball).cpp" />
+    <ClCompile Include="1074.cpp" />
+    <ClCompile Include="10773(제로).cpp" />
+    <ClCompile Include="10809번(알파벳 첫 등장 추출).cpp" />
+    <ClCompile Include="10817(세 수).cpp" />
+    <ClCompile Include="10886번(not cute_cute).cpp" />
+    <ClCompile Include="10988(팰린드롬인지 확인하기).cpp" />
+    <ClCompile Include="11047(동전 0).cpp" />
+    <ClCompile Include="11050(이항 계수 1).cpp" />
+    <ClCompile Include="11399(ATM).cpp" />
+    <ClCompile Include="1152번(단어의 수).cpp" />
+    <ClCompile Include="1157번(최대 등장 알파벳 출력).cpp" />
+    <ClCompile Include="11650(좌표 정렬하기).cpp" />
+    <ClCompile Include="11726(2×n 타일링).cpp" />
+    <ClCompile Include="11866(요세푸스 문제 0).cpp" />
+    <ClCompile Include="1292(쉽게 푸는 문제).cpp" />
+    <ClCompile Include="13305(주유소).cpp" />
+    <ClCompile Include="1408(24).cpp" />
+    <ClCompile Include="1463(1로 만들기).cpp" />
+    <ClCompile Include="14719(빗물).cpp" />
+    <ClCompile Include="15829(Hashing).cpp" />
+    <ClCompile Include="16503(괄호 없는 사칙연산).cpp" />
+    <ClCompile Include="1676(팩토리얼 0의 개수).cpp" />
+    <ClCompile Include="1697(숨바꼭질).cpp" />
+    <ClCompile Include="1789(수들의 합).cpp" />
+    <ClCompile Include="1920(수 찾기).cpp" />
+    <ClCompile Include="1931(회의실 배정).cpp" />
+    <ClCompile Include="1934(최소공배수).cpp" />
+    <ClCompile Include="1966(프린터 큐).cpp" />
+    <ClCompile Include="1978(소수 찾기).cpp" />
+    <ClCompile Include="2010(플러그).cpp" />
+    <ClCompile Include="2164(카드2).cpp" />
+    <ClCompile Include="2442번(별찍기).cpp" />
+    <ClCompile Include="2460(지능형 기차 2).cpp" />
+    <ClCompile Include="25083(새싹).cpp" />
+    <ClCompile Include="2530(인공지능 시계).cpp" />
+    <ClCompile Include="2576(홀수).cpp" />
+    <ClCompile Include="2577번(0~9나오는 횟구 구하기)(ver.1)(ver_추후_추가_요망).cpp" />
+    <ClCompile Include="2606(바이러스).cpp" />
+    <ClCompile Include="2609(최대공약수와 최소공배수).cpp" />
+    <ClCompile Include="2667(단지번호붙이기).cpp" />
+    <ClCompile Include="2675번(알파벳 반복하여 출력).cpp" />
+    <ClCompile Include="2693(N번째 큰 수).cpp" />
+    <ClCompile Include="2711(오타맨).cpp" />
+    <ClCompile Include="2839(설탕 배달).cpp" />
+    <ClCompile Include="2908번(거꾸로 숫자).cpp" />
+    <ClCompile Include="2935(소음).cpp" />
+    <ClCompile Include="4153(직각삼각형).cpp" />
+    <ClCompile Include="5063(TGN).cpp" />
+    <ClCompile Include="5355(화성 수학).cpp" />
+    <ClCompile Include="5622(다이얼타임).cpp" />
+    <ClCompile Include="5635(생일).cpp" />
+    <ClCompile Include="7644(이중 우선순위 큐).cpp" />
+    <ClCompile Include="9012(괄호).cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="10102(개표).txt" />
+    <Text Include="1012(유기농 배추).txt" />
+    <Text Include="10156(과자).txt" />
+    <Text Include="10214(Baseball).txt" />
+    <Text Include="10773(제로).txt" />
+    <Text Include="10809번(알파벳 첫 등장 추출).txt" />
+    <Text Include="10817(세 수).txt" />
+    <Text Include="10886번(not cute_cute).txt" />
+    <Text Include="10988(팰린드롬인지 확인하기).txt" />
+    <Text Include="11047(동전 0).txt" />
+    <Text Include="11050(이항 계수 1).txt" />
+    <Text Include="11399(ATM).txt" />
+    <Text Include="1152번(단어의 수).txt" />
+    <Text Include="1157번(최대 등장 알파벳 출력).txt" />
+    <Text Include="11650(좌표 정렬하기).txt" />
+    <Text Include="11726(2×n 타일링).txt" />
+    <Text Include="11866(요세푸스 문제 0).txt" />
+    <Text Include="1292(쉽게 푸는 문제).txt" />
+    <Text Include="13305(주유소).txt" />
+    <Text Include="1408(24).txt" />
+    <Text Include="1463(1로 만들기).txt" />
+    <Text Include="14719(빗물).txt" />
+    <Text Include="15829(Hashing).txt" />
+    <Text Include="16503(괄호 없는 사칙연산).txt" />
+    <Text Include="1676(팩토리얼 0의 개수).txt" />
+    <Text Include="1697(숨바꼭질).txt" />
+    <Text Include="1789(수들의 합).txt" />
+    <Text Include="1913(회의실 배정).txt" />
+    <Text Include="1920(수 찾기).txt" />
+    <Text Include="1934(최소공배수).txt" />
+    <Text Include="1966(프린터 큐).txt" />
+    <Text Include="1978(소수 찾기).txt" />
+    <Text Include="2010(플러그).txt" />
+    <Text Include="2164(카드2).txt" />
+    <Text Include="2442번(별찍기).txt" />
+    <Text Include="2460(지능형 기차 2).txt" />
+    <Text Include="25083(새싹).txt" />
+    <Text Include="2530(인공지능 시계).txt" />
+    <Text Include="2576(홀수).txt" />
+    <Text Include="2577번(0~9나오는 횟구 구하기(ver.1)(ver_추후_추가_요망).txt" />
+    <Text Include="2606(바이러스).txt" />
+    <Text Include="2609(최대공약수와 최소공배수).txt" />
+    <Text Include="2667(단지번호붙이기).txt" />
+    <Text Include="2675번(알파벳 반복하여 출력).txt" />
+    <Text Include="2693(N번째 큰 수).txt" />
+    <Text Include="2711(오타맨).txt" />
+    <Text Include="2839(설탕 배달).txt" />
+    <Text Include="2908번(거꾸로 숫자).txt" />
+    <Text Include="2935(소음).txt" />
+    <Text Include="4153(직각삼각형).txt" />
+    <Text Include="5063(TGN).txt" />
+    <Text Include="5355(화성 수학).txt" />
+    <Text Include="5622(다이얼타임).txt" />
+    <Text Include="5635(생일).txt" />
+    <Text Include="9012(괄호).txt" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{dc34aaa0-3010-49a7-b47e-2cbc8444e5f6}</ProjectGuid>
+    <RootNamespace>C</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
